@@ -1,10 +1,10 @@
 api = "0.9"
 
 [buildpack]
-id = "portersupport/heroku-buildpack-run"
+id = "portersupport/heroku-buildpack-awscli"
 version = "0.1.0"
-name = "Heroku Buildpack Run"
-homepage = "https://github.com/weibeld/heroku-buildpack-run"
+name = "Heroku Buildpack AWS CLI"
+homepage = "https://github.com/weibeld/heroku-buildpack-awscli"
 
 [[buildpack.licenses]]
 type = "MIT"
