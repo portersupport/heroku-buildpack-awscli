@@ -48,9 +48,7 @@ cat > "${BUILD_DIR}/.profile.d/awscli.sh" <<'PROFILE'
 export PATH="/app/.awscli/bin:${PATH}"
 PROFILE
 
-cat > "${BUILDPACK_DIR}/export" <<'EXPORT'
 export PATH="/app/.awscli/bin:${PATH}"
-EXPORT
 
 rm -rf "${TMP_DIR}"
 
