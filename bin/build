@@ -15,7 +15,7 @@ AWS_CLI_URL="https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip"
 
 LAYER_DIR=$1
 BUILDPACK_DIR="$(dirname $(dirname $0))"
-INSTALL_DIR="/usr/local/bin"
+INSTALL_DIR="/app/.awscli/bin"
 TMP_DIR=$(mktemp -d)
 
 BUILD_DIR=$LAYER_DIR/awscli
